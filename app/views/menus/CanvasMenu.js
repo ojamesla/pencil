@@ -147,7 +147,7 @@ CanvasMenu.prototype.setup = function () {
     UICommandManager.register({
       key: "cutCommand",
         label: "Cut",
-        icon: "content_cut",
+        //icon: "content_cut",
         shortcut: "Ctrl+X",
         isValid: function () { return Pencil.activeCanvas && Pencil.activeCanvas.currentController; },
         applyWhenClass: "CanvasScrollPane",
@@ -159,7 +159,7 @@ CanvasMenu.prototype.setup = function () {
     UICommandManager.register({
       key: "copyCommand",
         label: "Copy",
-        icon: "content_copy",
+        //icon: "content_copy",
         shortcut: "Ctrl+C",
         isValid: function () {
             return Pencil.activeCanvas && Pencil.activeCanvas.currentController;
@@ -172,7 +172,7 @@ CanvasMenu.prototype.setup = function () {
     UICommandManager.register({
       key: "pasteCommand",
         label: "Paste",
-        icon: "content_paste",
+        //icon: "content_paste",
         shortcut: "Ctrl+V",
         isValid: function () { return Pencil.activeCanvas; /*FIXME: check for clipboard content*/ },
         applyWhenClass: "CanvasScrollPane",

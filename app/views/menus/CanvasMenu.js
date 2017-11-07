@@ -147,7 +147,7 @@ CanvasMenu.prototype.setup = function () {
     UICommandManager.register({
       key: "cutCommand",
         label: "Cut",
-        icon: "content_cut",
+        icon: "../css/images/Menu-copy.png",
         shortcut: "Ctrl+X",
         isValid: function () { return Pencil.activeCanvas && Pencil.activeCanvas.currentController; },
         applyWhenClass: "CanvasScrollPane",
